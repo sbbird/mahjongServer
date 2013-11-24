@@ -1,0 +1,17 @@
+
+Client to Server:
+	room:join			= User tries to join a room
+	system:setname		= User sets nickname on server
+	message				= A room message
+
+Server to Client:
+	message				= A room message
+	room:authorized		= User gains authorization to a room
+	room:unauthorized	= User denies access to a room
+	userlist			= List of modifications in the rooms userlist
+
+Server to Webserver:
+	room:join			= User want to join a room
+
+Webserver to Server:
+	room:authorized		= User is authorized to a room by the webserver.
